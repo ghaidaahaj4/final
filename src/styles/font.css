@@ -1,0 +1,44 @@
+/* Define the CASaygonText font family with different weights */
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/public/fonts/CASaygonText-Regular.ttf") format("truetype");
+    font-family: "CASaygonText";
+    font-weight: 400; /* Regular weight */
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/public/fonts/CASaygonText-Bold.ttf") format("truetype");
+    font-family: "CASaygonText";
+    font-weight: 700; /* Bold weight */
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/public/fonts/CASaygonText-Light.ttf") format("truetype");
+    font-family: "CASaygonText";
+    font-weight: 300; /* Light weight */
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/public/fonts/CASaygonText-Medium.ttf") format("truetype");
+    font-family: "CASaygonText";
+    font-weight: 500; /* Medium weight */
+}
+
+/* Apply different font weights to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'CASaygonText' !important;
+
+}
+
+/* Apply regular font family to all normal text elements */
+body, p, span, div, li, a, button {
+    font-family: 'CASaygonText' !important;
+
+}

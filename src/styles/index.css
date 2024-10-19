@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'CASaygonText' !important;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+}
+
+.login li#react-tabs-2 {
+    border-radius: 0px 30px 0px 0px !important;
+}
+
+.login li#react-tabs-0 {
+    border-radius: 30px 0px 0px 0px !important;
+}
+
+.login {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+}
+
+.brl {
+    border-top-left-radius: 30px;
+}
+
+.brr {
+    border-top-right-radius: 30px;
+}
+
+.tab-panel--selected {
+    animation-name: tabPanel;
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.react-datepicker-popper {
+    z-index: 100000 !important;
+}
+
+@keyframes tabPanel {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cftayg > a {
+    position: relative;
+    background: #FEE280;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.size40 {
+    font-size: 40px !important;
+}
+
+.size20 {
+    font-size: 20px !important;
+}
+
+.size16 {
+    font-size: 16px !important;
+}
+
+.size14 {
+    font-size: 14px !important;
+}
+
+.linn {
+    line-height: unset !important;
+}
+
+.h50 {
+    height: 50px !important;
+}
+
+.h40 {
+    height: 40px !important;
+}
+
+.textindent {
+    text-indent: 20px;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.wdh {
+    width: 310px;
+}
+
+.wdd {
+    width: unset !important;
+}
+
+.csf {
+    font-size: 14px !important;
+    width: 60%;
+}
+
+input:focus {
+    outline: none; /* Remove the default outline */
+}
+
+/* Disable the suggestion box's background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    box-shadow: 0 0 0px 1000px white inset !important;
+    -webkit-text-fill-color: black !important;
+}
+
+..css-t3ipsp-control {
+    border-radius: 17px !important;
+    padding-left: 10px !important;
+}
+
+@media only screen and (max-width: 1050px) {
+.size40 {
+    font-size: 30px !important;
+}
+}
+
+@media only screen and (max-width: 370px) {
+    .size40 {
+        font-size: 25px !important;
+    }
+}

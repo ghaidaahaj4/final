@@ -1,0 +1,57 @@
+import React, {useEffect} from "react";
+import {Helmet} from "react-helmet";
+import {Button, Heading, Input} from "../../components";
+import DesktoptwentyColumnOne from "./DesktoptwentyColumnOne";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import {useNavigate} from "react-router-dom";
+
+export default function DesktopTwentyPage() {
+
+    const navigate = useNavigate();
+
+    const getUserFromLocalStorage = () => {
+        const userInfo = localStorage.getItem('user-info');
+        return userInfo ? JSON.parse(userInfo) : null;
+    };
+
+    useEffect(() => {
+        const user = getUserFromLocalStorage();
+
+        if (!user) {
+            // If user is not found, redirect to the login page
+            console.log("User not authenticated, redirecting to login...");
+            navigate('/login');
+        } else {
+            // Optionally handle authenticated state here
+            console.log("User authenticated:", user);
+        }
+    }, [navigate]); // Adding navigate as a dependency ensures that the hook re-runs if navigate changes
+
+
+
+
+    return (
+        <>
+            <Helmet>
+                <title>GiftFlow's Application</title>
+                <meta name="description" content="Web site created using create-react-app"/>
+            </Helmet>
+            <Header className="nav-shadow"/>
+            <div className="flex w-full flex-col items-center justify-center gap-4 py-[20px] md:py-5">
+                <div className="container-xs flex flex-col items-center md:px-5">
+                    <div
+                        className="flex w-[90%] flex-col items-center gap-[20px] md:w-full sm:gap-[33px]">
+                        <Heading size="heading7xl" as="h1" className="!font-bold font-quicksand">
+                            Add Child
+                        </Heading>
+                        <DesktoptwentyColumnOne/>
+                    </div>
+                </div>
+            </div>
+
+            <Footer className="self-stretch"/>
+        </>
+    );
+}
+

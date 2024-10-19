@@ -1,0 +1,317 @@
+{
+    "childName": "hasam",
+    "dob": "2024-10-22",
+    "picture": null,
+    "gender": "female",
+    "questions": [
+        {
+            "answer": [
+                "Drawing/Painting",
+                "Sports/Running",
+                "Video Games",
+                "Exploring Nature",
+                "Playing"
+            ],
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": [
+                {
+                    "value": 1,
+                    "label": "🧑‍🎨 Drawing/Painting"
+                },
+                {
+                    "value": 2,
+                    "label": "🏃 Sports/Running"
+                },
+                {
+                    "value": 3,
+                    "label": "🎮 Video Games"
+                },
+                {
+                    "value": 4,
+                    "label": "🧩 Solving Puzzles"
+                },
+                {
+                    "value": 5,
+                    "label": "🎸 Playing"
+                },
+                {
+                    "value": 6,
+                    "label": "🌳 Exploring Nature"
+                },
+                {
+                    "value": 7,
+                    "label": "🏰 Building (Legos, Blocks)"
+                },
+                {
+                    "value": 8,
+                    "label": "🎤 Singing/Dancing"
+                },
+                {
+                    "value": 9,
+                    "label": "🧑‍🍳 Cooking"
+                },
+                {
+                    "value": 10,
+                    "label": "📖 Reading Books"
+                },
+                {
+                    "value": 11,
+                    "label": "📝 Other"
+                }
+            ]
+        },
+        {
+            "answer": [
+                "Reading Club",
+                "Robotics/Coding Club",
+                "Puzzle/Chess Club",
+                "Science Club"
+            ],
+            "question": "Do they attend any clubs or classes regularly?",
+            "options": [
+                {
+                    "value": 1,
+                    "label": "🎨 Art Class"
+                },
+                {
+                    "value": 2,
+                    "label": "🏀 Sports Team"
+                },
+                {
+                    "value": 3,
+                    "label": "🎶 Music Class"
+                },
+                {
+                    "value": 4,
+                    "label": "🤖 Robotics/Coding Club"
+                },
+                {
+                    "value": 5,
+                    "label": "📚 Reading Club"
+                },
+                {
+                    "value": 6,
+                    "label": "🧩 Puzzle/Chess Club"
+                },
+                {
+                    "value": 7,
+                    "label": "🏊 Swimming Class"
+                },
+                {
+                    "value": 8,
+                    "label": "🎭 Drama/Theater Group"
+                },
+                {
+                    "value": 9,
+                    "label": "🧑‍🔬 Science Club"
+                },
+                {
+                    "value": 10,
+                    "label": "💃 Dance Class"
+                },
+                {
+                    "value": 11,
+                    "label": "📝 Other"
+                }
+            ]
+        },
+        {
+            "answer": "fffdfdfd",
+            "question": "Do they attend any clubs or classes regularly?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": "fdfdfdfd",
+            "question": "Do they attend any clubs or classes regularly?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": [
+                "Basketball",
+                "Volleyball"
+            ],
+            "question": "Are they involved in any sports regularly?",
+            "options": [
+                {
+                    "value": 1,
+                    "label": "⚽ Soccer"
+                },
+                {
+                    "value": 2,
+                    "label": "🏀 Basketball"
+                },
+                {
+                    "value": 3,
+                    "label": "🏊 Swimming"
+                },
+                {
+                    "value": 4,
+                    "label": "🏸 Badminton"
+                },
+                {
+                    "value": 5,
+                    "label": "🏃 Running"
+                },
+                {
+                    "value": 6,
+                    "label": "🏐 Volleyball"
+                },
+                {
+                    "value": 7,
+                    "label": "🎾 Tennis"
+                },
+                {
+                    "value": 8,
+                    "label": "🥋 Martial Arts"
+                },
+                {
+                    "value": 9,
+                    "label": "🏋️ Gymnastics"
+                },
+                {
+                    "value": 10,
+                    "label": "🚴 Cycling"
+                },
+                {
+                    "value": 11,
+                    "label": "📝 Other"
+                }
+            ]
+        },
+        {
+            "answer": [
+                "Making Costumes"
+            ],
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": [
+                {
+                    "value": 1,
+                    "label": "🎨 Painting"
+                },
+                {
+                    "value": 2,
+                    "label": "✂️ Crafting"
+                },
+                {
+                    "value": 3,
+                    "label": "🧶 Knitting/Sewing"
+                },
+                {
+                    "value": 4,
+                    "label": "🧵 Making Jewelry"
+                },
+                {
+                    "value": 5,
+                    "label": "🖌 Sculpting"
+                },
+                {
+                    "value": 6,
+                    "label": "🧩 DIY Projects"
+                },
+                {
+                    "value": 7,
+                    "label": "📒 Scrapbooking"
+                },
+                {
+                    "value": 8,
+                    "label": "🎭 Making Costumes"
+                }
+            ]
+        },
+        {
+            "answer": "dffdfd",
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": "fdfdfd",
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": "dfdfdffd",
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": "dffddffd",
+            "question": " What are some hobbies or activities they really enjoy?",
+            "options": null,
+            "inputtext": true
+        },
+        {
+            "answer": [
+                "Kids/Family",
+                "Musicals"
+            ],
+            "question": "Do they like watching movies? What genres do they enjoy?",
+            "options": [
+                {
+                    "value": 1,
+                    "label": "🎬 Action/Adventure"
+                },
+                {
+                    "value": 2,
+                    "label": "🦸 Superhero Movies"
+                },
+                {
+                    "value": 3,
+                    "label": "😂 Comedy"
+                },
+                {
+                    "value": 4,
+                    "label": "🧙 Fantasy"
+                },
+                {
+                    "value": 5,
+                    "label": "👻 Horror"
+                },
+                {
+                    "value": 6,
+                    "label": "🕵️ Mystery/Thriller"
+                },
+                {
+                    "value": 7,
+                    "label": "🌍 Documentary"
+                },
+                {
+                    "value": 8,
+                    "label": "💖 Romantic"
+                },
+                {
+                    "value": 9,
+                    "label": "🐉 Animated"
+                },
+                {
+                    "value": 10,
+                    "label": "👑 Historical/Period Drama"
+                },
+                {
+                    "value": 11,
+                    "label": "🏰 Fairy Tales"
+                },
+                {
+                    "value": 12,
+                    "label": "🚀 Sci-Fi"
+                },
+                {
+                    "value": 13,
+                    "label": "🎵 Musicals"
+                },
+                {
+                    "value": 14,
+                    "label": "🤖 Supernatural/Sci-Fi Fantasy"
+                },
+                {
+                    "value": 15,
+                    "label": "👶 Kids/Family"
+                }
+            ]
+        }
+    ]
+}
